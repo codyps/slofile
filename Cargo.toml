@@ -1,0 +1,11 @@
+[package]
+name = "slofile"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "*"
+thiserror = "*"
+tokio = { version = "*", features = ["full"] }
+#select = "*"
+scraper = "*"
